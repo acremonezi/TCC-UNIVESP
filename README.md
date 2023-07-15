@@ -45,7 +45,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.201
    </td>
-   <td>pi1
+   <td>node1
    </td>
    <td>Raspberry <strong>Pi 4</strong> Model B Rev 1.1
    </td>
@@ -63,7 +63,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.202
    </td>
-   <td>pi2
+   <td>node2
    </td>
    <td>Raspberry <strong>Pi 4</strong> Model B Rev 1.1
    </td>
@@ -81,7 +81,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.203
    </td>
-   <td>pi3
+   <td>node3
    </td>
    <td>Raspberry <strong>Pi 4</strong> Model B Rev 1.4
    </td>
@@ -99,7 +99,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.204
    </td>
-   <td>pi4
+   <td>node4
    </td>
    <td>Raspberry <strong>Pi 4</strong> Model B Rev 1.4
    </td>
@@ -117,7 +117,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.205
    </td>
-   <td>pi5
+   <td>node5
    </td>
    <td>Raspberry <strong>Pi 3</strong> Model B Rev 1.2
    </td>
@@ -135,7 +135,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.206
    </td>
-   <td>pi6
+   <td>node6
    </td>
    <td>Raspberry <strong>Pi 3</strong> Model B Rev 1.2
    </td>
@@ -153,7 +153,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.207
    </td>
-   <td>pi7
+   <td>node7
    </td>
    <td>Raspberry <strong>Pi 2</strong> Model B Rev 1.1
    </td>
@@ -169,9 +169,9 @@ Os Hardwares utilizados no projeto:
    </td>
   </tr>
   <tr>
-   <td>192.168.0.208
+   <td>192.168.0.200
    </td>
-   <td>pi8
+   <td>node0
    </td>
    <td>falta configurar
    </td>
