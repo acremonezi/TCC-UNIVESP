@@ -3,6 +3,7 @@
 2º Semestre de 2023.
 
 ## Hardwares:
+Os Hardwares utilizados no projeto são:
 
 <table>
   <tr>
@@ -200,4 +201,8 @@
 </table>
 
 ## Softwares:
-1. Ubuntu Server v21.10
+Os Softwares utilizados no projeto são:
+
+1. Ubuntu Server 22.04.2 LTS
+2. ...
+3. ...
