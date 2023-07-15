@@ -1,8 +1,8 @@
 # TCC UNIVESP - Engenharia de Computação
 <b>Raspberry Pi Kubernetes (K8s) Bare Metal Data Center Cluster</b>
+2º Semestre de 2023.
 
-
-#### Hardwares:
+## Hardwares:
 
 <table>
   <tr>
