@@ -27,7 +27,7 @@ Os Hardwares utilizados no projeto:
   <tr>
    <td>192.168.0.199
    </td>
-   <td>switch1
+   <td>switch
    </td>
    <td>8 Ports Layer 2 Gigabit Switch
    </td>
