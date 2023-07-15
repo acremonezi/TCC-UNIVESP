@@ -1,9 +1,9 @@
 # TCC-UNIVESP
-TCC-UNIVESP
-# Raspberry Pi Kubernetes (K8s) Cluster
-This is my Home Laboratory to learn and play with.
 
-## Hardwares:
+## Raspberry Pi Kubernetes (K8s) Cluster
+
+
+### Hardwares:
 
 <table>
   <tr>
