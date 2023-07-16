@@ -1,0 +1,6 @@
+- name: Add Fabiano's ssh key on each Node
+  hosts: all
+  tasks:
+    - lineinfile:
+        path: /home/ubuntu/.ssh/authorized_keys
+        line: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEBe72UCCACOilDY3hv16+2Ez6kuFLPFm/qyZIzUdnn8 2005869@aluno.univesp.br"

@@ -1,9 +1,0 @@
-- name: Add TCC Team ssh key on each Node.
-  host: all
-  tasks:
-    - lineinfile:
-        path: /home/ubuntu/.ssh/authorized_keys
-        line: { { item } }
-      loop:
-        - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHaI0wzv62QwbMErOZFMuwKb1yAqwKZQ3NjgAyZY/1mK acremonezi@gmail.com"
-        - "AAAAC3NzaC1lZDI1NTE5AAAAIEBe72UCCACOilDY3hv16+2Ez6kuFLPFm/qyZIzUdnn8 2005869@aluno.univesp.br"
