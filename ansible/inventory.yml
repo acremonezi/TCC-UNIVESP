@@ -1,0 +1,14 @@
+[nodes]
+192.168.0.20[1:8]
+
+[pi4]
+192.168.0.20[1:4]
+
+[pi3]
+192.168.0.20[5:6]
+
+[pi2]
+192.168.0.20[7:8]
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
