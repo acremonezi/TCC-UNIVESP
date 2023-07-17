@@ -1,11 +1,12 @@
-[nodes]
-192.168.0.20[1:8]
-
-[master]
-192.168.0.201
+[controllers]
+192.168.0.20[1:2]
 
 [workers]
-192.168.0.20[2:8]
+192.168.0.20[3:8]
+
+[cluster:children]
+controllers
+workers
 
 [pi4]
 192.168.0.20[1:4]
