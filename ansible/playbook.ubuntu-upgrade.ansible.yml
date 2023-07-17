@@ -1,8 +1,8 @@
 - hosts: all
   become: true
-  become_user: ubuntu
+  become_user: root
   tasks:
-    - name: Update all packages
+    - name: Update all packages on servers
       apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
 
     - name: Upgrade all packages on servers
