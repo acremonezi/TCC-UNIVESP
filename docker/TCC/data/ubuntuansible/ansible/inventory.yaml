@@ -1,0 +1,42 @@
+tcc-virtual-machines:
+    hosts:
+        vm01:
+            ansible_host: 172.168.15.11
+            # ansible_port: 40201
+            ansible_user: root
+            ansible_connection: ssh
+        vm02:
+            ansible_host: 172.168.15.12
+            # ansible_port: 40202
+            ansible_user: root
+            ansible_connection: ssh            
+        vm03:
+            ansible_host: 172.168.15.13
+            # ansible_port: 40203
+            ansible_user: root
+            ansible_connection: ssh            
+        vm04:
+            ansible_host: 172.168.15.14
+            # ansible_port: 40204
+            ansible_user: root
+            ansible_connection: ssh            
+        vm05:
+            ansible_host: 172.168.15.15
+            # ansible_port: 40205
+            ansible_user: root
+            ansible_connection: ssh            
+        vm06:
+            ansible_host: 172.168.15.16
+            # ansible_port: 40206
+            ansible_user: root
+            ansible_connection: ssh            
+        vm07:
+            ansible_host: 172.168.15.17
+            # ansible_port: 40207
+            ansible_user: root
+            ansible_connection: ssh            
+        vm08:
+            ansible_host: 172.168.15.18
+            # ansible_port: 40208
+            ansible_user: root
+            ansible_connection: ssh            

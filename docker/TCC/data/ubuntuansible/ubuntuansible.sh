@@ -9,6 +9,9 @@ apt update
 apt install python3 -y
 apt install python3-pip -y
 apt install openssh-client -y
+apt install curl -y
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py --user
 python3 -m pip install ansible
 
 ssh-add ~/.ssh/id_rsa
