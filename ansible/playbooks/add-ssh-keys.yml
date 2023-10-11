@@ -11,3 +11,10 @@
     - lineinfile:
         path: /home/ubuntu/.ssh/authorized_keys
         line: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAaVKceg/T7roZbmVdvs82T1W31wPy5S8yXmLdVO0QHapzp6XpQg7ypZmH5Hd6MZqyDUHUDvdxHV1C1l+ih7MrOckcZgoksOoMCOFv+nXQ1l9BXkyKnvXZ6BuxPVNoHYfUcQ/k76g+oZT68a/cRPAg70IP8vPJ5rhAABDna7QrnmRO83lnyg5ksmoddLn1auc8jYcdhQTY0c4AufNZNlNqhvFncx9OAIf8C0/rUrnYm7MOE+uMBYXaDkUraM0tdxKaID8w9TAoHBiqNo8tElX5hxjXyzP6yBqHxu9SCrzeATC9zuZiRJgkTtT7TpTaaVk+S04rNi1hLLEPPyquIx6tbCLrr7/VxhJItHf834Kb8LL1ayr08MeILXF9hwle2A1N7LiILelu/bAxVsZJAM15ElPmDGjwief058lLOZiBMtlViZAA6jZxLHKYZLPw1XYhDWYDQMQTDAKafrbxjC/T1+bb64rMSDBIdos4z3kZO09+Yall3EPnPwjoOpDjW60= fabianocv@fabianocv-550XCJ-550XCR"
+
+- name: Add Emerson's ssh key
+  hosts: all
+  tasks:
+    - lineinfile:
+        path: /home/ubuntu/.ssh/authorized_keys
+        line: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIMHz18YV/3sN95uc6LKIqzKvwBI3IW5gXLqnV0dc2lI emer.herzeg@gmail.com"
