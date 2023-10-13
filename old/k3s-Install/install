@@ -1,0 +1,32 @@
+Instala o controller:
+
+curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION=v1.26.9+k3s1 K3S_KUBECONFIG_MODE="644" INSTALL_K3S_EXEC="server" sh -s 
+
+----------------------------------------------
+sudo cat /var/lib/rancher/k3s/server/node-token
+
+K10a5938b600910bc9d9899bbd6b26ce1796fa07d401d3db72d909f959ea9f0001c::server:46ba8782cf9b65462dc78212100a1af3
+
+------------------
+
+add Nodes:
+    
+    
+curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION=v1.26.9+k3s1 K3S_URL="https://192.168.0.201:6443" K3S_KUBECONFIG_MODE="644" K3S_TOKEN="K10a5938b600910bc9d9899bbd6b26ce1796fa07d401d3db72d909f959ea9f0001c::server:46ba8782cf9b65462dc78212100a1af3" sh -s
+
+---------------------------
+
+# If you have installed the CRDs manually instead of with the `--set installCRDs=true` option added to your Helm install command, you should upgrade your CRD resources before upgrading the Helm chart:
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.11.0/cert-manager.crds.yaml
+
+# Add the Jetstack Helm repository
+helm repo add jetstack https://charts.jetstack.io
+
+# Update your local Helm chart repository cache
+helm repo update
+
+# Install the cert-manager Helm chart
+helm install cert-manager jetstack/cert-manager \
+  --namespace cert-manager \
+  --create-namespace \
+  --version v1.11.0

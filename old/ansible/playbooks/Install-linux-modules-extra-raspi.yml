@@ -1,0 +1,12 @@
+- name: Install linux-modules-extra-raspi and Turn off ufw (uncomplicated firewall)
+  become: true
+  become_user: root
+  hosts: all
+  tasks:
+    - name: Install linux-modules-extra-raspi
+      apt:
+        name: linux-modules-extra-raspi
+        state: present
+        update_cache: yes
+    - name: Turn off ufw (uncomplicated firewall)
+      shell: ufw disable
