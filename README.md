@@ -9,5 +9,5 @@
 
 ### Fontes:
 
-1 - https://github.com/k3s-io/k3s-ansible
-2 - https://github.com/carlosedp/cluster-monitoring
+1. https://github.com/k3s-io/k3s-ansible
+2. https://github.com/carlosedp/cluster-monitoring
