@@ -54,7 +54,7 @@ spec:
         tier: mariadb
     spec:
       containers:
-        - image: tobi312/rpi-mariadb:10.3
+        - image: tobi312/rpi-mariadb:10.6-alpine
           name: mariadb
           env:
             - name: MYSQL_ROOT_PASSWORD

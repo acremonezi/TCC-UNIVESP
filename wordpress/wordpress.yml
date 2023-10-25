@@ -94,7 +94,7 @@ metadata:
   namespace: wordpress
 spec:
   rules:
-    - host: wordpress.10.0.100.99.nip.io
+    - host: wordpress.192.168.0.202.nip.io
       http:
         paths:
           - path: /
