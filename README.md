@@ -7,6 +7,6 @@
 1. <b>Link:</b> https://www.youtube.com/watch?v=QSzvb9y00Kk
 
 
-### Materiais Tecnicos estão aqui:
+### Materiais Técnicos estão aqui:
 
 1. <b>Link:</b> https://drive.google.com/drive/folders/1Aityhax7mJUjXdQsLYXsyLj2FN0G0nzp?usp=sharing
