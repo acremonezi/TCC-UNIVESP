@@ -3,7 +3,7 @@
 <b>Raspberry Pi Kubernetes (K8s) Bare Metal Data Center Cluster</b><br>
 2º Semestre de 2023.
 
-### Video
+### Vídeo
 1. Link: https://www.youtube.com/watch?v=QSzvb9y00Kk
 
 
