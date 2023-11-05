@@ -8,7 +8,7 @@
 
 ### Materiais Tecnicos estão aqui:
 
-1. <b>LINK:</b> https://drive.google.com/drive/folders/1Aityhax7mJUjXdQsLYXsyLj2FN0G0nzp?usp=sharing
+1. <b>Link:</b> https://drive.google.com/drive/folders/1Aityhax7mJUjXdQsLYXsyLj2FN0G0nzp?usp=sharing
 
 ### Fontes:
 
