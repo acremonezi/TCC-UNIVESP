@@ -4,9 +4,9 @@
 2º Semestre de 2023.
 
 ### Vídeo
-1. Link: https://www.youtube.com/watch?v=QSzvb9y00Kk
+1. <b>Link:</b> https://www.youtube.com/watch?v=QSzvb9y00Kk
 
 
 ### Materiais Tecnicos estão aqui:
 
-1. <b>LINK:</b> https://drive.google.com/drive/folders/1Aityhax7mJUjXdQsLYXsyLj2FN0G0nzp?usp=sharing
+1. <b>Link:</b> https://drive.google.com/drive/folders/1Aityhax7mJUjXdQsLYXsyLj2FN0G0nzp?usp=sharing
