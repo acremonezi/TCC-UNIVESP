@@ -1,0 +1,143 @@
+version: "3.9"
+
+services:
+  ubuntuansible:
+    image: ubuntu
+    container_name: ubuntuansible
+    hostname: ubuntuansible
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.10
+    volumes:
+      - ./data/ubuntuansible:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/ubuntuansible.sh && bash -c "tail -f /dev/null"
+
+  ubuntu1:
+    image: ubuntu
+    container_name: ubuntu1
+    hostname: ubuntu1
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.11
+    ports:
+      - "40201:22"
+    volumes:
+      - ./data/ubuntu1:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+  ubuntu2:
+    image: ubuntu
+    container_name: ubuntu2
+    hostname: ubuntu2
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.12
+    ports:
+      - "40202:22"
+    volumes:
+      - ./data/ubuntu2:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+  ubuntu3:
+    image: ubuntu
+    container_name: ubuntu3
+    hostname: ubuntu3
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.13
+    ports:
+      - "40203:22"
+    volumes:
+      - ./data/ubuntu3:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+  ubuntu4:
+    image: ubuntu
+    container_name: ubuntu4
+    hostname: ubuntu4
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.14
+    ports:
+      - "40204:22"
+    volumes:
+      - ./data/ubuntu4:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+  ubuntu5:
+    image: ubuntu
+    container_name: ubuntu5
+    hostname: ubuntu5
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.15
+    ports:
+      - "40205:22"
+    volumes:
+      - ./data/ubuntu5:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+  ubuntu6:
+    image: ubuntu
+    container_name: ubuntu6
+    hostname: ubuntu6
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.16
+    ports:
+      - "40206:22"
+    volumes:
+      - ./data/ubuntu6:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+  ubuntu7:
+    image: ubuntu
+    container_name: ubuntu7
+    hostname: ubuntu7
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.17
+    ports:
+      - "40207:22"
+    volumes:
+      - ./data/ubuntu7:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+  ubuntu8:
+    image: ubuntu
+    container_name: ubuntu8
+    hostname: ubuntu8
+    restart: always
+    networks:
+      tccnetwork:
+        ipv4_address: 172.168.15.18
+    ports:
+      - "40208:22"
+    volumes:
+      - ./data/ubuntu8:/data
+    # command: bash -c "tail -f /dev/null"
+    command: /data/other_hosts.sh && bash -c "tail -f /dev/null"
+
+
+networks:
+  tccnetwork:
+    driver: bridge
+    ipam: 
+      config:
+        - subnet: 172.168.15.0/24

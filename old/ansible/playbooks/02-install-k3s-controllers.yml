@@ -1,0 +1,8 @@
+- name: Install k3s servers
+  become: true
+  hosts: masters
+  tasks:
+    - name: Ping hosts
+      ansible.builtin.ping:
+    - name: Install k3s servers
+      shell: curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION={{ k3s_version }} K3S_URL=https://{{ hostvars['nerminmaster']['ansible_default_ipv4'].address }}:6443 K3S_TOKEN={{ hostvars['nerminmaster']['k3s_token'] }} K3S_NODE_NAME={{ inventory_hostname }} sh -s - server

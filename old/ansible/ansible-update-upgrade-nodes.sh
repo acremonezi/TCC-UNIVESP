@@ -1,0 +1,1 @@
+ansible-playbook -u ubuntu playbooks/ubuntu-upgrade.yml -i inventory 

@@ -1,1 +1,0 @@
-ansible all -m ping -u ubuntu -i inventory
